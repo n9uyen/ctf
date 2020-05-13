@@ -4,7 +4,7 @@
 
 1. XXExternalXX
 
-[Index.html]
+![Index.html]
 Request
 ```
 GET / HTTP/1.1
@@ -17,14 +17,6 @@ Connection: close
 ```
 
 Response
-```
-HTTP/1.1 200 OK
-Server: nginx/1.14.2
-Date: Sun, 10 May 2020 07:20:36 GMT
-Content-Type: text/html; charset=UTF-8
-Connection: close
-Content-Length: 1124
-```
 ```html
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -70,14 +62,6 @@ User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Tride
 Connection: close
 ```
 Response
-```
-HTTP/1.1 200 OK
-Server: nginx/1.14.2
-Date: Sun, 10 May 2020 07:21:33 GMT
-Content-Type: text/html; charset=UTF-8
-Connection: close
-Content-Length: 1167
-```
 ```html
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -171,9 +155,7 @@ www-data:x:82:82:Linux User,,,:/home/www-data:/sbin/nologin
 ```
 ![Image](https://github.com/n9uyen/ctf/blob/master/passwd.png?raw=true)
 
-
-And flag is ```shkCTF{G3T_XX3D_f5ba4f9f9c9e0f41dd9df266b391447a}```
-
+And get flag
 ```xml
 <?xml version="1.0"?>
 <!DOCTYPE note [
@@ -185,5 +167,5 @@ And flag is ```shkCTF{G3T_XX3D_f5ba4f9f9c9e0f41dd9df266b391447a}```
 ```
 ![Image](https://github.com/n9uyen/ctf/blob/master/flag.png)
 
-
+Flag is ```shkCTF{G3T_XX3D_f5ba4f9f9c9e0f41dd9df266b391447a}```
 
