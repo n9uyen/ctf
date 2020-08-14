@@ -1,4 +1,4 @@
-# WannaGame Chamionship
+# WannaGame Championship
 
 ## Web - Tunt Robot (170pts)
 
