@@ -122,7 +122,7 @@ if __name__ == '__main__':
     app.run(debug=False, host='0.0.0.0', port=5000)
 
 ```
-Read source code, have mains route: `login`, `admin`.
+Read source code, have main routes: `login`, `admin`.
 
 In `login` route, to create access token, login as admin use `POST` method with username and password: `admin:admin`, get access token in response.
 
