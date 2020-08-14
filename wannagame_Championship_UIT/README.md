@@ -10,7 +10,7 @@ Solve basic mathematical expression and get flag. :joy: :joy:
 
 Get element of expression and use `eval()` in Python to solve it. :sunglasses:
 
-This is a [script](https://github.com/n9uyen/ctf/blob/master/wannagame_Championship_UIT/solve.py) to solve challenge.
+This is a [script](https://github.com/n9uyen/ctf/blob/master/wannagame_Championship_UIT/script.py) to solve challenge.
 
 ```python
 import requests
