@@ -128,7 +128,7 @@ In `login` route, to create access token, login as admin use `POST` method with 
 
 ![Image](https://github.com/n9uyen/ctf/blob/master/wannagame_Championship_UIT/3.png)
 
-In `admin` route, to authenticate as admin, add `Authorization: Bearer <token>` to request headers.
+In `admin` route, to authenticate as admin, add `Authorization: Bearer <token>` in request headers.
 
 To get flag, `ImlkZW50aXR5IjogIm5vdC1hZG1pbiI` (`"identity": "not-admin"`) must in access_token.
 
