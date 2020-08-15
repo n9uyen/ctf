@@ -15,7 +15,7 @@ This is a [script](https://github.com/n9uyen/ctf/blob/master/wannagame_Champions
 ```python
 import requests
 import re
-import os
+
 s = requests.Session()
 url = "http://45.122.249.68:8098/challenge.php"
 
