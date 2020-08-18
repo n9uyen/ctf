@@ -2,7 +2,7 @@
 
 ## Web - Tunt Robot (170pts)
 
-![Image](https://github.com/n9uyen/ctf/blob/master/wannagame_Championship_UIT/1.png)
+![Image](https://github.com/n9uyen/ctf/blob/master/wannagame_Championship_UIT/1.png?raw=true)
 
 Solve basic mathematical expression and get flag. :joy: :joy:
 
@@ -37,7 +37,7 @@ while 1:
 
 And get flag.
 
-![Image](https://github.com/n9uyen/ctf/blob/master/wannagame_Championship_UIT/2.png)
+![Image](https://github.com/n9uyen/ctf/blob/master/wannagame_Championship_UIT/2.png?raw=true)
 
 ## Web - No cookie for u (200pts)
 
@@ -126,7 +126,7 @@ Read source code, have main routes: `login`, `admin`.
 
 In `login` route, to create access token, login as admin use `POST` method with username and password: `admin:admin`, get access token in response.
 
-![Image](https://github.com/n9uyen/ctf/blob/master/wannagame_Championship_UIT/3.png)
+![Image](https://github.com/n9uyen/ctf/blob/master/wannagame_Championship_UIT/3.png?raw=true)
 
 In `admin` route, to authenticate as admin, add `Authorization: Bearer <token>` in request headers.
 
@@ -139,13 +139,13 @@ I have tried some ways to bypass: brute-force weak signature, add `identity` in 
 Fun fact, I try add "qwerty" to endpoint in access token.
 Result:
 
-![Image](https://github.com/n9uyen/ctf/blob/master/wannagame_Championship_UIT/4.png)
+![Image](https://github.com/n9uyen/ctf/blob/master/wannagame_Championship_UIT/4.png?raw=true)
 
 Wait a minute, token is valid. :thinking:
 
 I add `ImlkZW50aXR5IjogIm5vdC1hZG1pbiI` to endpoint access token and get flag. ¯\\\_(ツ)\_/¯ 
 
-![Image](https://github.com/n9uyen/ctf/blob/master/wannagame_Championship_UIT/5.png)
+![Image](https://github.com/n9uyen/ctf/blob/master/wannagame_Championship_UIT/5.png?raw=true)
 
 Flag is: `wannagame{488c5171c6ffc123b377acc6cf55e7c46bf06017}`
 
