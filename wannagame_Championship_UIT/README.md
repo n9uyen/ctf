@@ -136,7 +136,7 @@ To get flag, `ImlkZW50aXR5IjogIm5vdC1hZG1pbiI` (`"identity": "not-admin"`) must 
 
 I have tried some ways to bypass: brute-force weak signature, add `identity` in request but it's not working.
 
-Fun fact, I try add "qwerty" to endpoint in access token.
+Fun fact, I try add anything to endpoint in access token.
 Result:
 
 ![Image](https://github.com/n9uyen/ctf/blob/master/wannagame_Championship_UIT/4.png?raw=true)
